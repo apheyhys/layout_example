@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Layout</title>
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            border: 3px solid black;  
+        }
+        .section {
+            display: flex;
+            flex: 1 0 auto;
+            flex-direction: row;
+            height: 70%;
+            width: 80%;     
+            align-self: center; 
+            border: 3px solid blue;           
+        }
+        .footer {
+            flex-shrink: 0;
+            height: 15%;
+            border: 3px solid red;       
+        }
+        .header {
+            height: 15%;
+            border: 3px solid green;
+        }
+        .header p{
+            font-size: 20px;
+            text-align: center;
+            color: red; 
+        }
+        .footer p{
+            font-size: 20px;
+            text-align: center;
+            color: green; 
+        }
+        .section_menu {
+            border: 3px solid gold;            
+            height: 80%;
+            width: 20%;
+        }
+        .section_menu p {
+            font-size: 20px;
+            color: gold; 
+            padding-left: 1em;
+        }
+        .section_content {
+            border: 3px solid purple;
+            overflow: auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>   
+    
+    <header class="header"><p>Header</p></header>
+    <section class="section">
+        <div class="section_menu">
+            <p>fix_menu</p>
+        </div>
+        <div class="section_content">
+            <h1>Lorem ipsum</h1>
+            <p>Solum vituperata definitiones te vis, vis alia falli doming ea. Postulant assueverit ea his. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Nec labore cetero theophrastus no, ei vero facer veritus nec.
+                Solum vituperata definitiones te vis, vis alia falli doming ea. Odio contentiones sed cu, usu commodo prompta prodesset id. Sea esse deserunt ei, no diam ubique euripidis has. Postulant assueverit ea his. . Magna copiosae apeirian ius at. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem.
+                Postulant assueverit ea his. Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui. Nisl omittam complectitur pro an, quem omnes munere id vix. Solum vituperata definitiones te vis, vis alia falli doming ea. Sea esse deserunt ei, no diam ubique euripidis has.
+                Odio contentiones sed cu, usu commodo prompta prodesset id. Per in illud petentium iudicabit, integre sententiae pro no. Nec labore cetero theophrastus no, ei vero facer veritus nec. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui.
+                Magna copiosae apeirian ius at. Postulant assueverit ea his. Nisl omittam complectitur pro an, quem omnes munere id vix. Sale liber et vel. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui.
+                Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Nec labore cetero theophrastus no, ei vero facer veritus nec. Lorem ipsum dolor sit amet, an eos lorem ancillae expetenda, vim et utamur quaestio.
+                Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui. Per cu iracundia splendide. Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has.
+                Ceteros assentior omittantur cum ad. Nec labore cetero theophrastus no, ei vero facer veritus nec. An eos iusto solet, id mel dico habemus. An nam debet instructior, commodo mediocrem id cum. Sale liber et vel. Sea esse deserunt ei, no diam ubique euripidis has. Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has.
+                Nisl omittam complectitur pro an, quem omnes munere id vix. . Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Nisl omittam complectitur pro an, quem omnes munere id vix.
+                Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has. Sale liber et vel. Ceteros assentior omittantur cum ad. Nec labore cetero theophrastus no, ei vero facer veritus nec. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui.
+                Sea esse deserunt ei, no diam ubique euripidis has. Solum vituperata definitiones te vis, vis alia falli doming ea. Ius dicat feugiat no, vix cu modo dicat principes. Per in illud petentium iudicabit, integre sententiae pro no. Tation delenit percipitur at vix.
+                Ceteros assentior omittantur cum ad. Tation delenit percipitur at vix. Nisl omittam complectitur pro an, quem omnes munere id vix. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui.
+                Oratio accumsan et mea. Tation delenit percipitur at vix. Magna copiosae apeirian ius at. Ceteros assentior omittantur cum ad. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui.
+                Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Nec labore cetero theophrastus no, ei vero facer veritus nec. Nisl omittam complectitur pro an, quem omnes munere id vix. Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui.
+                Nisl omittam complectitur pro an, quem omnes munere id vix. Vel in dicant cetero phaedrum, usu populo interesset cu, eum ea facer nostrum pericula. Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando.
+                Ceteros assentior omittantur cum ad. Odio contentiones sed cu, usu commodo prompta prodesset id. Eu eam dolores lobortis percipitur, quo te equidem deleniti disputando. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui.
+                Per cu iracundia splendide. Nisl omittam complectitur pro an, quem omnes munere id vix. An nam debet instructior, commodo mediocrem id cum. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Ius dicat feugiat no, vix cu modo dicat principes.
+                Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Tation delenit percipitur at vix. Magna copiosae apeirian ius at. Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has. Nisl omittam complectitur pro an, quem omnes munere id vix.
+                Sale liber et vel. . Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Odio contentiones sed cu, usu commodo prompta prodesset id. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.
+                Postulant assueverit ea his. Tation delenit percipitur at vix. An eos iusto solet, id mel dico habemus. Ceteros assentior omittantur cum ad. Nisl omittam complectitur pro an, quem omnes munere id vix. Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has.
+                Sale liber et vel. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem. Sale liber et vel. Per in illud petentium iudicabit, integre sententiae pro no. Oratio accumsan et mea. Vel in dicant cetero phaedrum, usu populo interesset cu, eum ea facer nostrum pericula.
+                Ceteros assentior omittantur cum ad. Tation delenit percipitur at vix. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui. Nisl omittam complectitur pro an, quem omnes munere id vix. Ius dicat feugiat no, vix cu modo dicat principes.
+                Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Ceteros assentior omittantur cum ad. Postulant assueverit ea his. Vel in dicant cetero phaedrum, usu populo interesset cu, eum ea facer nostrum pericula. An eos iusto solet, id mel dico habemus.
+                Sale liber et vel. Nisl omittam complectitur pro an, quem omnes munere id vix. An nam debet instructior, commodo mediocrem id cum. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Vivendum dignissim conceptam pri ut, ei vel partem audiam sapientem.
+                An eos iusto solet, id mel dico habemus. Solum vituperata definitiones te vis, vis alia falli doming ea. Nisl omittam complectitur pro an, quem omnes munere id vix. Odio contentiones sed cu, usu commodo prompta prodesset id. Magna copiosae apeirian ius at.
+                Tation delenit percipitur at vix. Eu cum iuvaret debitis voluptatibus, esse perfecto reformidans id has. Sale liber et vel. Solum vituperata definitiones te vis, vis alia falli doming ea. Magna copiosae apeirian ius at. Sale liber et vel. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at.
+                An nam debet instructior, commodo mediocrem id cum. Mandamus abhorreant deseruisse mea at, mea elit deserunt persequeris at, in putant fuisset honestatis qui. An nam debet instructior, commodo mediocrem id cum. Postulant assueverit ea his.
+                Odio contentiones sed cu, usu commodo prompta prodesset id. Per in illud petentium iudicabit, integre sententiae pro no. Oratio accumsan et mea. Odio contentiones sed cu, usu commodo prompta prodesset id. Oratio accumsan et mea. . Per cu iracundia splendide.
+                Vix paulo sanctus scripserit ex, te iriure insolens voluptatum qui. Sea esse deserunt ei, no diam ubique euripidis has. An nam debet instructior, commodo mediocrem id cum. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an.
+                Per cu iracundia splendide. Eam id posse dictas voluptua, veniam laoreet oportere no mea, quis regione suscipiantur mea an. Tation delenit percipitur at vix. Elitr accommodare deterruisset eam te, vim munere pertinax consetetur at. Per cu iracundia splendide.</p>
+        </div>
+    </section>
+    <footer class="footer"><p>Footer</p></footer>
+</body>
+</html>
